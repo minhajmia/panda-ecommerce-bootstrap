@@ -1,6 +1,89 @@
 
+/* google font link here */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Roboto:wght@300;400;500;700&display=swap');
+
+/* utilities */
+html{
+    scroll-behavior: smooth;
+}
 body{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* header section style  */
+/* .panda-logo{
+    min-width: 160px;
+} */
+.panda-search-box{
+    min-width: 390px;
+    margin-right: 0 !important;
+    padding-right: 0 !important;
+    border: 0 !important;
+    margin-left: 150px !important;
+}
+.panda-search-box-input{
+    border-radius: 50px;
+    background-color: #F1F1F1;
+}
+.panda-search-box-input:focus{
+    color: unset !important;
+    border-color: unset !important;
+    outline: 0 !important;
+     box-shadow: unset !important;
+}
+/* .panda-link{
+    min-width: 345px;
+} */
+.panda-carousel-img img{
+    height: 378px;
+}
+.panda-bg-info{
+    background-color: #fceae8;
+}
+
+/* category section styles */
+.category-title{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 54px;
+    color: #FFFFFF;
+}
+.categories img{
+    height: 90px;
+}
+#category-watch{
+    background-color: #ffa500;
+}
+#category-bag{
+    background-color: #da70d6;
+}
+#category-shoes{
+    background-color: #0000ff;
+}
+
+/* shoes section styles */
+.panda-shoes-btn{
+    background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+    cursor: pointer;
+}
+
+/* subscribe */
+.subscribe{
+    background-color: #fceae8;
+}
+.panda-subscribe-btn{
+    background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+    cursor: pointer;
 }
